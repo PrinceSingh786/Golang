@@ -3,22 +3,14 @@ package main
 
 import (
 	"fmt"
-	"math/rand"
 )
 
 func main() {
-	x := rand.Intn(10)
-	y := rand.Intn(10)
-	fmt.Println("x and y are ", x, " and ", y)
-	switch {
-	case x < 5 && y < 5:
-		fmt.Println("both are less than 5")
-	case x == 5 && y == 5:
-		fmt.Println("both are 5")
-	case x > 5 && y > 5:
-		fmt.Println("both are greater than 5")
-	default:
-		fmt.Println("one is less than or equal to 5 and other is greater than or equal to 5")
+	mapped := map[int]string{
+		0: "Kushinagar",
+		1: "Gorakhpur",
+		2: "Deoria",
+		3: "Maharajganj",
 	}
-
+	fmt.Println(mapped[0])
 }
