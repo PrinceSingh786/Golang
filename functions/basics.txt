@@ -1,0 +1,30 @@
+function is a reusable block of code used to perform a specific tasks
+
+Purpose of functions :
+    - Abstract code
+    - Code reusability
+    - Parameters vs Arguments
+    - Syntax
+
+Parameters vs Arguments
+Parameters are variables in the function definition, while arguments are the values passed to the function when it's called.
+
+
+* Variadic Parameters
+ A way to pass a variable number of values of a specific type into a function
+
+ * Defer 
+ A defer statement in  go defers the execution of a function until the surrounding function returns.
+Defered functions run in last in first out order
+
+ * Method 
+ a method in programming is a block of code that performs a specific action and is defined as part of a class in Object-oriented programming
+
+
+ * Callbacks
+  passing a func into another func as an argument
+
+  * Closure
+   one scope enclosing another 
+   variable declared in the outer scope are accessible in inner scope
+   Closure helps us limit the scope of variables

@@ -17,4 +17,13 @@ func swap(x, y string) (string, string) {
 func main() {
 	fmt.Println(add(5, 243))
 	fmt.Println(swap("prince", "singh"))
+
+	//Function returning a function
+	y := func() func() int {
+		x := func() int {
+			return 42
+		}
+		return x
+	}
+	fmt.Println(y()())
 }
