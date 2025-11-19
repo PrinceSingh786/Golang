@@ -22,7 +22,7 @@ func (b Byfield) Less(i, j int) bool {
 }
 
 func main() {
-	p1 := person{Name: "Prince", Age: 22}
+	p1 := person{Name: "Prince", Age: 23}
 	p2 := person{Name: "Jack", Age: 20}
 	p3 := person{Name: "Almanac", Age: 18}
 	people := []person{p1, p2, p3}
