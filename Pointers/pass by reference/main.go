@@ -10,7 +10,7 @@ func main() {
 	// change(&a)
 	// fmt.Println(a)
 
-	ii := []int{2, 4, 5, 6}
+	ii := []int{2, 4, 5, 6,9}
 	fmt.Println(ii)
 	f(ii)
 	fmt.Println(ii)
