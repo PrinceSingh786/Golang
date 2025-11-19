@@ -5,7 +5,7 @@ import (
 )
 
 func mul(x int) int {
-	return x * 5
+	return x * 4
 }
 func main() {
 	ch := make(chan int)
